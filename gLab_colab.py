@@ -1,3 +1,5 @@
+#!/bin/python3
+
 import requests, os                                  
 # Download and Install ffuf in google-colab
 url = """https://github.com/ffuf/ffuf/releases/download/v1.3.1/ffuf_1.3.1_linux_amd64.tar.gz"""
