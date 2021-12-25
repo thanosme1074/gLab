@@ -13,5 +13,5 @@ os.system('curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | sudo tee /et
 
 # Install other packages
 os.system("""
-apt-get install nano file zip git poppler-utils php net-tools tar && pip install speedtest-cli wordlist
+apt-get install nano file zip git poppler-utils php net-tools tar megatools && pip install speedtest-cli wordlist
 """)
